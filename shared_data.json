@@ -1,0 +1,100 @@
+{
+  "previous_total_progress": 58,
+  "members": [
+    {
+      "id": "kim",
+      "name": "김민수M",
+      "role": "PM"
+    },
+    {
+      "id": "hong",
+      "name": "홍길동M",
+      "role": "개발"
+    },
+    {
+      "id": "lee",
+      "name": "이서연M",
+      "role": "디자인"
+    },
+    {
+      "id": "park",
+      "name": "박지훈M",
+      "role": "QA"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "task-001",
+      "title": "오픈 보고",
+      "owner_id": "hong",
+      "status": "진행",
+      "priority": "P1",
+      "due_date": "2026-05-08",
+      "progress": 80
+    },
+    {
+      "id": "task-002",
+      "title": "고객사 주간 리뷰",
+      "owner_id": "kim",
+      "status": "예정",
+      "priority": "P1",
+      "due_date": "2026-05-09",
+      "progress": 20
+    },
+    {
+      "id": "task-003",
+      "title": "대시보드 와이어프레임",
+      "owner_id": "lee",
+      "status": "완료",
+      "priority": "P2",
+      "due_date": "2026-05-06",
+      "progress": 100
+    },
+    {
+      "id": "task-004",
+      "title": "회귀 테스트",
+      "owner_id": "park",
+      "status": "진행",
+      "priority": "P2",
+      "due_date": "2026-05-07",
+      "progress": 65
+    }
+  ],
+  "calendar": [
+    {
+      "id": "cal-001",
+      "owner_id": "kim",
+      "date": "2026-05-08",
+      "category": "회의",
+      "title": "주간 리더 회의"
+    },
+    {
+      "id": "cal-002",
+      "owner_id": "hong",
+      "date": "2026-05-08",
+      "category": "외근",
+      "title": "고객사 현장 지원"
+    },
+    {
+      "id": "cal-003",
+      "owner_id": "lee",
+      "date": "2026-05-11",
+      "category": "휴무",
+      "title": "오전 반차"
+    },
+    {
+      "id": "cal-004",
+      "owner_id": "park",
+      "date": "2026-05-12",
+      "category": "특이사항",
+      "title": "배포 검증 집중일"
+    }
+  ],
+  "logs": [
+    {
+      "id": "log-001",
+      "timestamp": "2026-05-08T08:50:00",
+      "message": "홍길동M이 '오픈 보고' 과제의 진척률을 80%로 수정했습니다."
+    }
+  ]
+}
